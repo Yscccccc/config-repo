@@ -8,5 +8,10 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/springcloud_sell?characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true
+  rabbitmq:
+    host: 192.168.99.100
+    port: 5672
+    password: guest
+    username: guest
 env:
-  test3
+  test
